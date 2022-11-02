@@ -1,6 +1,7 @@
 import "./App.css";
 import user from "./user.json";
-import Slider from "react-slick";
+import imgUrl from ".my_photo.jpg";
+// import Slider from "react-slick";
 
 function App() {
   const mailMe = "mailto:" + user.email;
@@ -10,7 +11,7 @@ function App() {
       <div className="art"> </div>
       <div className="container">
         <div className="content">
-          <img src="../images/my_photo.jpg" alt="myPhoto" />
+          <img src={imgUrl} alt="myPhoto" />
           <h1>About me</h1>
           <div className="name">
             {" "}
