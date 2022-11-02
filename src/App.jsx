@@ -1,6 +1,6 @@
 import "./App.css";
 import user from "./user.json";
-import imgUrl from ".my_photo.jpg";
+import imgUrl from "./my_photo.jpg";
 // import Slider from "react-slick";
 
 function App() {
